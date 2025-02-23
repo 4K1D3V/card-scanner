@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0.75rem;
+  }
+  
+  [data-theme="birthday"] {
+    --primary: 325 90% 66%;
+    --background: 325 100% 98%;
+  }
+  
+  [data-theme="valentine"] {
+    --primary: 0 84% 60%;
+    --background: 0 100% 98%;
+  }
+  
+  [data-theme="luck"] {
+    --primary: 142 76% 36%;
+    --background: 142 100% 98%;
+  }
+  
+  [data-theme="health"] {
+    --primary: 199 89% 48%;
+    --background: 199 100% 98%;
+  }
+  
+  [data-theme="christmas"] {
+    --primary: 144 70% 29%;
+    --background: 144 100% 98%;
+  }
+  
+  [data-theme="newyear"] {
+    --primary: 265 89% 78%;
+    --background: 265 100% 98%;
+  }
+}
